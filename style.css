@@ -8,12 +8,11 @@
 
 :root { 
     --fonte-titulo: 'Ms Madi', cursive;
-    --fonte-semititulo: 'Amatic SC', cursive;
+    --fonte-subtitulo: 'Amatic SC', cursive;
     --fonte-conteudo: 'Economica', sans-serif;
 
     --cor1: #51301b;
     --cor2: #A79252;
-    --cor3: #b9a158;
 }
 
 * {
@@ -39,7 +38,7 @@ header {
 }
 
 header > p {
-    font-family: var(--fonte-semititulo);
+    font-family: var(--fonte-subtitulo);
     font-size: 1.5em;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -76,8 +75,8 @@ nav > a:hover {
 article {
     width: 800px;
     font-family: var(--fonte-conteudo);
-    background-color: var(--cor3);
-    color: white;
+    background-color: var(--cor2);
+    color: black;
     box-shadow: 3px 3px 15px #51301b98;
     border-radius: 8px;
     padding: 50px;
@@ -88,7 +87,7 @@ article {
 section.procedimentos { 
     width: 90%;
     margin: auto;
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     border-radius: 8px;
     box-shadow: 3px 3px 15px #51301b98;
     margin-top: 40px;
@@ -125,8 +124,8 @@ section.procedimentos > ul > li > img {
     padding: 25px;
 }
 
-section.procedimentos > ul > li > .semititulo {
-    font-family: var(--fonte-semititulo);
+section.procedimentos > ul > li > .subtitulo {
+    font-family: var(--fonte-subtitulo);
     font-size: 1.5em;
     font-weight: bolder;
     text-align: center;
