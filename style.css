@@ -11,8 +11,9 @@
     --fonte-subtitulo: 'Amatic SC', cursive;
     --fonte-conteudo: 'Economica', sans-serif;
 
-    --cor1: #51301b;
-    --cor2: #A79252;
+    --cor1: #8E9DCC;
+    --cor2: #FCB9B2;
+    --cor3: #F4F1BB;
 }
 
 * {
@@ -22,7 +23,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
+    background-color: var(--cor3);
 }
 
 header {
