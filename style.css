@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
+
+:root { 
+    --fonte-titulo: 'Ms Madi', cursive;
+    --fonte-semititulo: 'Amatic SC', cursive;
+    --fonte-conteudo: 'Economica', sans-serif;
+
+    --cor1: #51301b;
+    --cor2: #A79252;
+    --cor3: #b9a158;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    text-align: center;
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.425);
+}
+
+.titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 5em;
+    text-shadow: 1px 1px 3px #A79252;
+}
+
+header > p {
+    font-family: var(--fonte-semititulo);
+    font-size: 1.5em;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: var(--cor2);
+}
+
+header > img {
+    padding: 15px;
+    margin-top: 15px;
+} 
+
+nav {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav > a {
+    font-family: var(--fonte-conteudo);
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid var(--cor1);
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+article {
+    width: 800px;
+    font-family: var(--fonte-conteudo);
+    background-color: var(--cor3);
+    color: white;
+    box-shadow: 3px 3px 15px #51301b98;
+    border-radius: 8px;
+    padding: 50px;
+    margin: auto;
+    text-align: justify;
+}
+
+section.procedimentos { 
+    width: 90%;
+    margin: auto;
+    background-color: var(--cor3);
+    border-radius: 8px;
+    box-shadow: 3px 3px 15px #51301b98;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+section.procedimentos > .titulo {
+    font-family: var(--fonte-titulo);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.425);
+    margin: -20px -20px 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 1px 1px 3px #A79252;
+}
+
+section.procedimentos > ul {
+    columns: 4;
+    list-style-type: none;
+}
+
+section.procedimentos > ul > li {
+    border: 3px solid var(--cor1);
+    border-radius: 5px;
+    margin: auto;
+    padding: 40px;
+    height: 400px;
+}
+
+section.procedimentos > ul > li > img {
+    padding: 25px;
+}
+
+section.procedimentos > ul > li > .semititulo {
+    font-family: var(--fonte-semititulo);
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 3px var(--cor1);
+    padding: 5px;
+}
+
+section.procedimentos > ul > li > p {
+    font-family: var(--fonte-conteudo);
+    text-align: justify;
+}
+
+footer {
+    background-color: var(--cor1);
+    font-family: var(--fonte-conteudo);
+    color: var(--cor2);
+    padding: 5px;
+    text-align: center;
+}
+
+footer > a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+footer > a:hover {
+    text-decoration: underline;
+}
