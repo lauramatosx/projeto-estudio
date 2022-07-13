@@ -99,7 +99,7 @@ section.procedimentos {
 section.procedimentos > .titulo {
     font-family: var(--fonte-titulo);
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
-    box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.425);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.26);
     margin: -20px -20px 20px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
