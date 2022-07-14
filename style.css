@@ -120,10 +120,11 @@ section.procedimentos > ul {
 .itens {
     display: inline-block;
     border: 3px solid var(--cor1);
-    border-radius: 5px;
+    border-radius: 10px;
+    margin: auto;
     margin-bottom: 30px;
-    padding: 20px;
-    height: 300px;
+    padding: 5px;
+    height: 330px;
 }
 
 section.procedimentos > ul > li > img {
@@ -143,7 +144,8 @@ section.procedimentos > ul > li > .subtitulo {
 section.procedimentos > ul > li > p {
     font-family: var(--fonte-conteudo);
     text-align: justify;
-    padding: 5px;
+    line-height: 15px;
+    padding: 2px;
 }
 
 footer {
